@@ -1,0 +1,19 @@
+{
+  "name": "@mfdemo/vanilla-parent",
+  "version": "0.0.1-beta",
+  "main": "index.js",
+  "sideEffects": false,
+  "scripts": {
+    "start": "cross-env NODE_ENV=development webpack serve",
+    "build": "cross-env NODE_ENV=production webpack",
+    "build:share": "cross-env NODE_ENV=production SHARE_DEPS=true webpack"
+  },
+  "devDependencies": {
+    "@mfdemo/webpack-base": "^0.0.1-beta",
+    "cross-env": "^7.0.3"
+  },
+  "dependencies": {
+    "core-js": "^3.17.2",
+    "regenerator-runtime": "^0.13.9"
+  }
+}
