@@ -17,7 +17,7 @@
   dependencies:
     tslib "^2.0.0"
 
-"@angular-architects/module-federation@12.4.1":
+"@angular-architects/module-federation@^12.4.1":
   version "12.4.1"
   resolved "https://craigmiller160.ddns.net:30003/repository/npm-group/@angular-architects/module-federation/-/module-federation-12.4.1.tgz#bf884c90a9bd9a030b53df05f30e0b85104683df"
   integrity sha512-UueMzu3RpNB6ZaJAo72ugSFVS9c5WTi4CimpNNemGrvPPDkpb6vlGwQ/6asDEVh2mqLNKodmglwFhzMD1KhzUg==
@@ -223,7 +223,7 @@
   dependencies:
     tslib "^2.2.0"
 
-"@angular/elements@12.2.4":
+"@angular/elements@^12.2.4":
   version "12.2.4"
   resolved "https://craigmiller160.ddns.net:30003/repository/npm-group/@angular/elements/-/elements-12.2.4.tgz#004d382946227077680309458fab731278977d40"
   integrity sha512-lPXwYZJmr69KRXG5e1CTZitIytJJ0lzJLwU3xXOnoBGwpgsn3MxLCW10ax7UOOX66kfXjrVLN10iO/QsdKoBTw==
