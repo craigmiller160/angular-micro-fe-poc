@@ -16,7 +16,13 @@ module.exports = merge(
         devServer: {
             port: 3000,
             proxy: {
-
+                '/one': {
+                    target: 'http://localhost:3001',
+                    changeOrigin: true,
+                    pathRewrite: {
+                        '^/one': ''
+                    }
+                }
             }
         },
         plugins: [
@@ -24,7 +30,7 @@ module.exports = merge(
                 name: 'parent',
                 filename: 'remoteEntry.js',
                 remotes: {
-
+                    one: 'one@/one/remoteEntry.js'
                 },
                 ...shareDeps
             })
