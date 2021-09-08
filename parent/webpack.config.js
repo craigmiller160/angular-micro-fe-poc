@@ -38,7 +38,7 @@ module.exports = merge(
                 filename: 'remoteEntry.js',
                 remotes: {
                     one: 'one@/one/remoteEntry.js',
-                    two: 'two@/one/remoteEntry.js'
+                    two: 'two@/two/remoteEntry.js'
                 },
                 ...shareDeps
             })
