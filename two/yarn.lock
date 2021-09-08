@@ -204,6 +204,13 @@
   dependencies:
     tslib "^2.2.0"
 
+"@angular/elements@12.2.4":
+  version "12.2.4"
+  resolved "https://craigmiller160.ddns.net:30003/repository/npm-group/@angular/elements/-/elements-12.2.4.tgz#004d382946227077680309458fab731278977d40"
+  integrity sha512-lPXwYZJmr69KRXG5e1CTZitIytJJ0lzJLwU3xXOnoBGwpgsn3MxLCW10ax7UOOX66kfXjrVLN10iO/QsdKoBTw==
+  dependencies:
+    tslib "^2.2.0"
+
 "@angular/forms@~12.2.0":
   version "12.2.4"
   resolved "https://craigmiller160.ddns.net:30003/repository/npm-group/@angular/forms/-/forms-12.2.4.tgz#2fab23c604ca5fd8f5e39689a9399e4dcf45bac2"
@@ -2933,6 +2940,11 @@ dns-txt@^2.0.2:
   integrity sha1-uR2Ab10nGI5Ks+fRB9iBocxGQrY=
   dependencies:
     buffer-indexof "^1.0.0"
+
+document-register-element@^1.7.2:
+  version "1.14.10"
+  resolved "https://craigmiller160.ddns.net:30003/repository/npm-group/document-register-element/-/document-register-element-1.14.10.tgz#a7bd025e6b73bd827fec2d8e90aba755e99387f5"
+  integrity sha512-w5UA37hEIrs+9pruo2yR5UD13c4UHDlkqqjt4qurnp7QsBI9b1IOi8WXUim+aCqKBsENX3Z/cso7XMOuwJH1Yw==
 
 dom-serialize@^2.2.1:
   version "2.2.1"
