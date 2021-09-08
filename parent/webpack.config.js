@@ -22,6 +22,13 @@ module.exports = merge(
                     pathRewrite: {
                         '^/one': ''
                     }
+                },
+                '/two': {
+                    target: 'http://localhost:3002',
+                    changeOrigin: true,
+                    pathRewrite: {
+                        '^/two': ''
+                    }
                 }
             }
         },
@@ -30,7 +37,8 @@ module.exports = merge(
                 name: 'parent',
                 filename: 'remoteEntry.js',
                 remotes: {
-                    one: 'one@/one/remoteEntry.js'
+                    one: 'one@/one/remoteEntry.js',
+                    two: 'two@/one/remoteEntry.js'
                 },
                 ...shareDeps
             })
